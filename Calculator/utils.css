@@ -1,0 +1,27 @@
+.center{
+    text-align: center;
+    font-size: 40px;
+    color: aliceblue;
+}
+
+.bg-red{
+    background: red;
+}
+
+.mx-auto{
+    margin: auto;
+}
+
+.flex{
+    display: flex;
+}
+.flex-col{
+    flex-direction: column;
+}
+
+.items-center{
+    align-items: center;
+}
+.double{
+    width: 140px;
+}
