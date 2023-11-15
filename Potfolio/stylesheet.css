@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,200&family=Ubuntu:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    max-width: 92vw;
+    background-size: cover;
+}
+.container1{
+    max-width: 92vw;
+    max-height: fit-content;
+    background-size: cover;
+}
+
+.navbar{
+    display: flex;
+    height: 76px;
+    font-family: 'Ubuntu', sans-serif;
+    margin-top: 25px;
+}
+
+.navbar li{
+    list-style: none;
+    margin: 0 12px;
+    font-weight: bold;
+}
+
+.navbar li a{
+    color: rgb(59, 100, 6);
+    text-decoration: none;
+}
+
+.navbar li a:hover{
+    color: black;
+}
+.navbar li a:active{
+    color: blue;
+}
+.topleft{
+    width: 80%;
+    height: 50vh;
+}
+.topright{
+    width: 50%;
+    height: 50vh;
+}
+.image{
+    width: 250%;
+    display: block;
+    max-height: fit-content;
+}
+.footer{
+    padding: 20px 0;
+}

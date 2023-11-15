@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Montserrat:ital,wght@1,200&family=Ubuntu:wght@300&display=swap');
+.flex{
+    display: flex;
+}
+
+.justify-between{
+    justify-content: space-between;
+}
+.mx-auto{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.element-style{
+    font-size: 1.8rem;
+    margin-left: 40px;
+    margin-top: 25px;
+    color: blueviolet;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.font{
+    font-family: 'Dancing Script', cursive;
+    font-weight: 500;
+    font-size: 300%;
+}
+
+.ul{
+    list-style: none;
+}
+
+.items-center{
+    align-items: center;
+}
+
+.min-screen{
+    min-height: 200vh;
+    margin-top: 100px;
+    margin-left: 50px;
+    padding: 20px 20px 20px 20px;
+}
+
+.flex-col{
+    flex-direction: column;
+}
+.flex-col2{
+    flex-direction: column;
+    column-rule: 1px solid black;
+}
+
+.justify-center{
+    justify-content: center;
+}
+.text-align{
+    text-align: center;
+}
+
+.para{
+    margin-top: 30px;
+    font-size: large;
+    font-family: 'Montserrat', sans-ser;
+    margin-bottom: 30px;
+}
+.para1{
+    margin-top: 40px;
+    margin-bottom: 30px;
+    text-align: left;
+    font-size: 30px;
+}
+.para2{
+    margin-top: 40px;
+    font-size: 25px;
+}
+
+.h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 250%;
+}
+.social a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgb(194, 191, 191);
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: rgb(6, 58, 199);
+    transition: all 0.5s ease;
+    margin-bottom: 40px;
+}
+
+.social a:hover{
+    color: rgb(1, 1, 51);
+    padding-left: 10px;
+}
+
+.social1 a{
+    display: inline-block;
+    height: 40px;
+    width: 60px;
+    background-color: rgb(243, 228, 16);
+    margin-top: 20px;
+    margin-left: 200px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: rgb(161, 76, 6);
+    transition: all 0.5s ease;
+    margin-bottom: 40px;
+}
+.social1 a:hover{
+    color: rgb(1, 1, 51);
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.btn{
+    width: 30%;
+    padding: 7px 12px;
+    border: 2px solid rgb(121, 162, 238);
+    border-radius: 12px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    margin-right: 30px;
+}
+.btn:hover{
+    background-color: rgb(67, 84, 238);
+    color: white;
+}
+
+.text{
+    margin-top: 90px;
+    color: rgb(49, 47, 47);
+    font-size: 350%;
+    margin-left: 50px;
+}
+.text1{
+    margin-top: 90px;
+    color: rgb(92, 7, 85);
+    font-size: 350%;
+    margin-left: 50px;
+}
+.img{
+    display: block;
+    width: 130%; 
+    margin-top: 90px; 
+    float: left;
+
+}
+.column{
+    flex-direction: column;
+    border: 1px solid white;
+    margin: 2px;
+    padding: 10px;
+}
+.row1{
+    display: flex;
+    flex-wrap: wrap;
+}
+.ul{
+    margin-top: 40px;
+    line-height: 40px;
+    font-weight: 100;
+    font-size: 150%;
+}
+.border {
+    width: 100%;
+    background-color: rgb(82, 80, 80);
+    box-sizing: border-box;
+    border-radius: 30px;
+}
+
+.skill{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.frontend{
+    width: 80%; 
+    background-color: rgb(214, 149, 149);
+}
+.programming{
+    width: 50%; 
+    background-color: rgb(214, 149, 149);
+}
