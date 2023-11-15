@@ -1,0 +1,177 @@
+.min-h-screen{
+    min-height:100vh;
+}
+
+.bg-red{
+    background-color: red;
+}
+.mx-auto{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.element-style{
+    font-size: 1.8rem;
+    font-style: italic;
+    margin-left: 20px;
+}
+.flex{
+    display: flex;
+}
+.items-center{
+    align-items: center;
+}
+.justify-between{
+    justify-content: space-between;
+}
+
+.justify-center{
+    justify-content: center;
+}
+.flex-col{
+    flex-direction: column;
+}
+
+.flex-col2{ 
+    padding: 25px 0 0 80px; 
+    width: 200px;
+    height: 250px;
+}
+
+.font-bold{
+    font-weight: bold;
+}
+
+.my-1{
+    margin-top: 13px;
+    margin-bottom: 13px;
+}
+.my-2{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.px-2{
+    padding-left: 13px;
+    padding-right: 13px;
+}
+
+.text-blue{
+    color: hsl(310, 90%, 24%);
+}
+
+.btn{
+    padding: 7px 12px;
+    border: 2px solid white;
+    border-radius: 12px;
+    cursor: pointer;
+    color: white;
+    background-color: rgb(49, 49, 49);
+}
+
+.color{
+    background-color: rgb(228, 221, 221);
+}
+
+.text-align{
+    text-align: center;
+}
+.overflow-hidden{
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.column{
+    flex: 1;
+    border: 1px solid white;
+    margin: 2px;
+    padding: 10px;
+    background-color: aquamarine;
+    transition: 0.3s;
+}
+.h1{
+    align-items: center;
+    color: rgb(165, 116, 26);
+    margin-bottom: 20px;
+}
+.h3{
+    color: brown;
+    margin-right: 20px;
+}
+.column:first-child{
+    margin-left: 0;
+    background-color: beige;
+}
+.column:nth-last-child(2){
+    margin-left: 0;
+    background-color: beige;
+}
+.column:nth-last-child(3){
+    margin-left: 0;
+    background-color: beige;
+}
+.column:last-child{
+    margin-left: 0;
+    background-color: beige;
+}
+
+.images{
+    float: left;
+    margin-right: 20px;
+    margin-top: 30px;
+    margin-left: -85px;
+}
+.para{
+    margin-top: 80px;
+}
+
+.row1{
+    display: flex;
+    flex-wrap: wrap;
+}
+.list{
+    list-style: none;
+}
+
+.footer-content{
+    width: 25%;
+    padding: 0 15px;
+}
+
+.footer-content h3{
+    font-size: 20px;
+    color: black;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.footer-content ul li:not(:last-child){
+    margin-bottom: 10px;
+}
+.footer-content ul li a{
+    font-size: 16px;
+    text-transform: capitalize;
+    color: aqua;
+    text-decoration: none;
+    font-weight: 300;
+    color: black;
+    display: block;
+    transition: all 0.3s ease;
+}
+.footer-content ul li a:hover{
+    color: rgb(1, 1, 51);
+    padding-left: 10px;
+
+}
+.footer-content .social-links a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgb(194, 191, 191);
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: rgb(6, 58, 199);
+    transition: all 0.5s ease;
+}
